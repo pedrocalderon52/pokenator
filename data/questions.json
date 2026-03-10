@@ -1,0 +1,8 @@
+{
+    "colors": ["azul", "verde", "vermelho", "amarelo", "rosa", "cinza", "marrom", "roxo"],
+    "attributes": [
+        {"key": "is_legendary", "question": "Ele é um Pokémon lendário?"},
+        {"key": "is_quadruped", "question": "Ele anda sobre quatro patas?"}
+    ],
+    "types": ["grass", "fire", "water", "psychic", "electric", "ghost", "poison", "normal", "fairy", "rock", "ground", "flying", "dragon"]
+}
