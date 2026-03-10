@@ -1,26 +1,32 @@
 from experta import *
 
 class Greetings(KnowledgeEngine):
-    @DefFacts() # definindo a base de fatos inicial
-    def _initial_action(self):
-        yield Fact(action="greet") 
+   # @DefFacts() # definindo a base de fatos inicial
+   #def _initial_action(self):
 
     @Rule(
-          Fact(action='greet'), # @Rule define a condição da regra
-          NOT(Fact(name=W()))) # W() = vê se o campo já ta cheio ou não
-    def ask_name(self): # define o que será executado com a condição satisfeita
-        self.declare(Fact(name=input("What's your name? ")))
+          NOT(Fact(color=W()))
+          ) # W() = vê se o campo já ta cheio ou não
+    def ask_color(self): # define o que será executado com a condição satisfeita
+        self.declare(Fact(color=input("Qual a cor? ")))
+    @Rule(
+          NOT(Fact(isbase=W()))
+          ) # W() = vê se o campo já ta cheio ou não
+    def ask_isbase(self): # define o que será executado com a condição satisfeita
+        self.declare(Fact(isbase=input("Ele é base (s/n)? ")))
 
-    @Rule(Fact(action='greet'),
-          NOT(Fact(location=W())))
-    def ask_location(self):
-        self.declare(Fact(location=input("Where are you? ")))
+    @Rule(
+          Fact(color=W()),
+          Fact(isbase=W())
+          )
+    def verificarFlag(self):
+        self.declare(Fact(flag=True))
 
-    @Rule(Fact(action='greet'),
-          Fact(name=MATCH.name),
-          Fact(location=MATCH.location))
-    def greet(self, name, location):
-        print("Hi %s! How is the weather in %s?" % (name, location))
+    @Rule(
+          Fact(flag=W())
+          )
+    def perguntafinal(self):
+        self.declare(Fact(aura=input("É O PIKACU??????????? ")))
 
 engine = Greetings()
 engine.reset()  # Prepare the engine for the execution.
