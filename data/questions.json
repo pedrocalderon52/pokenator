@@ -1,8 +1,75 @@
 {
-    "colors": ["azul", "verde", "vermelho", "amarelo", "rosa", "cinza", "marrom", "roxo"],
-    "attributes": [
-        {"key": "is_legendary", "question": "Ele é um Pokémon lendário?"},
-        {"key": "is_quadruped", "question": "Ele anda sobre quatro patas?"}
-    ],
-    "types": ["grass", "fire", "water", "psychic", "electric", "ghost", "poison", "normal", "fairy", "rock", "ground", "flying", "dragon"]
+  "attributes": [
+    {
+      "key": "is_legendary",
+      "question": "Ele é um Pokémon lendário?"
+    },
+    {
+      "key": "is_mythical",
+      "question": "Ele é um Pokémon mítico?"
+    },
+    {
+      "key": "is_evolved",
+      "question": "Ele é um Pokémon evoluído?"
+    },
+    {
+      "key": "has_multiple_types",
+      "question": "Ele possui dois tipos?"
+    },
+    {
+      "key": "is_firstgen",
+      "question": "Ele é um Pokémon da primeira geração?"
+    },
+    {
+      "key": "is_short",
+      "question": "Ele é um Pokémon pequeno (menos de 7)?"
+    },
+    {
+      "key": "is_medium",
+      "question": "Ele é um Pokémon médio (entre 7 e 17)?"
+    },
+    {
+      "key": "is_tall",
+      "question": "Ele é um Pokémon alto (mais de 17)?"
+    }
+  ],
+
+  "types": [
+    {"value": "grass", "question": "Ele é do tipo grama?"},
+    {"value": "dark", "question": "Ele é do tipo sombra?"},
+    {"value": "fire", "question": "Ele é do tipo fogo?"},
+    {"value": "water", "question": "Ele é do tipo água?"},
+    {"value": "electric", "question": "Ele é do tipo elétrico?"},
+    {"value": "psychic", "question": "Ele é do tipo psíquico?"},
+    {"value": "ghost", "question": "Ele é do tipo fantasma?"},
+    {"value": "poison", "question": "Ele é do tipo veneno?"},
+    {"value": "normal", "question": "Ele é do tipo normal?"},
+    {"value": "rock", "question": "Ele é do tipo pedra?"},
+    {"value": "ground", "question": "Ele é do tipo terra?"},
+    {"value": "metal", "question": "Ele é do tipo metal?"},
+    {"value": "fairy", "question": "Ele é do tipo fada?"},
+    {"value": "dragon", "question": "Ele é do tipo dragão?"},
+    {"value": "flying", "question": "Ele é do tipo voador?"}
+  ],
+
+  "colors": [
+    {"value": "blue", "question": "Ele é azul?"},
+    {"value": "green", "question": "Ele é verde?"},
+    {"value": "red", "question": "Ele é vermelho?"},
+    {"value": "yellow", "question": "Ele é amarelo?"},
+    {"value": "pink", "question": "Ele é rosa?"},
+    {"value": "gray", "question": "Ele é cinza?"},
+    {"value": "brown", "question": "Ele é marrom?"},
+    {"value": "purple", "question": "Ele é roxo?"}
+  ],
+
+  "habitat": [
+    {"value": "forest", "question": "Ele vive em florestas?"},
+    {"value": "grassland", "question": "Ele vive em campos?"},
+    {"value": "mountain", "question": "Ele vive em montanhas?"},
+    {"value": "waters-edge", "question": "Ele vive perto da água?"},
+    {"value": "cave", "question": "Ele vive em cavernas?"},
+    {"value": "urban", "question": "Ele vive perto de cidades?"}
+  ]
+
 }
