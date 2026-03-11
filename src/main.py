@@ -1,7 +1,13 @@
 from loader import load_pokemons, load_questions
-from utils import choose_best_question
+from utils import choose_best_question, init_log
 from engine import Answer, PokeAkinator
 from experta import MATCH
+
+# Inicializa o Log #
+
+init_log()
+
+
 
 # -----------------------------
 # Carrega dados
