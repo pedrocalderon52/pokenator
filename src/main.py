@@ -1,3 +1,5 @@
+import random
+
 from loader import load_pokemons, load_questions
 from utils import choose_best_question
 from engine import Answer, PokeAkinator
@@ -18,6 +20,8 @@ QUESTION_SECTIONS = (
     ("types", "type_"),
     ("habitat", "habitat_"),
 )
+
+RANDOM_QUESTIONS_NUMBER = 3
 
 
 def build_question_key(section_name, item):
@@ -86,9 +90,14 @@ asked_attrs = set()
 # Loop de perguntas
 # -----------------------------
 while len(engine.possible_pokemons) > 1:
-    next_attr = choose_best_question(
-        engine.possible_pokemons, all_attrs, attributes, asked_attrs
-    )
+    remaining_attrs = [attr for attr in attributes if attr not in asked_attrs]
+    if len(asked_attrs) < RANDOM_QUESTIONS_NUMBER and remaining_attrs:
+        next_attr = random.choice(remaining_attrs)
+    else:
+        next_attr = choose_best_question(
+            engine.possible_pokemons, all_attrs, attributes, asked_attrs
+        )
+
     if not next_attr:
         break
 
