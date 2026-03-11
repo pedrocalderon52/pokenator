@@ -2,74 +2,74 @@
   "attributes": [
     {
       "key": "is_legendary",
-      "question": "Ele é um Pokémon lendário?"
+      "question": "O seu Pokémon é lendário?"
     },
     {
       "key": "is_mythical",
-      "question": "Ele é um Pokémon mítico?"
+      "question": "O seu Pokémon é mítico?"
     },
     {
       "key": "is_evolved",
-      "question": "Ele é um Pokémon evoluído?"
+      "question": "O seu Pokémon é evoluído?"
     },
     {
       "key": "has_multiple_types",
-      "question": "Ele possui dois tipos?"
+      "question": "O seu Pokémon possui dois tipos?"
     },
     {
       "key": "is_firstgen",
-      "question": "Ele é um Pokémon da primeira geração?"
+      "question": "O seu Pokémon é da primeira geração?"
     },
     {
       "key": "is_short",
-      "question": "Ele é um Pokémon pequeno (menos de 7)?"
+      "question": "O seu Pokémon é pequeno (menos de 7)?"
     },
     {
       "key": "is_medium",
-      "question": "Ele é um Pokémon médio (entre 7 e 17)?"
+      "question": "O seu Pokémon é médio (entre 7 e 17)?"
     },
     {
       "key": "is_tall",
-      "question": "Ele é um Pokémon alto (mais de 17)?"
+      "question": "O seu Pokémon é alto (mais de 17)?"
     }
   ],
 
   "types": [
-    {"value": "grass", "question": "Ele é do tipo grama?"},
-    {"value": "dark", "question": "Ele é do tipo sombra?"},
-    {"value": "fire", "question": "Ele é do tipo fogo?"},
-    {"value": "water", "question": "Ele é do tipo água?"},
-    {"value": "electric", "question": "Ele é do tipo elétrico?"},
-    {"value": "psychic", "question": "Ele é do tipo psíquico?"},
-    {"value": "ghost", "question": "Ele é do tipo fantasma?"},
-    {"value": "poison", "question": "Ele é do tipo veneno?"},
-    {"value": "normal", "question": "Ele é do tipo normal?"},
-    {"value": "rock", "question": "Ele é do tipo pedra?"},
-    {"value": "ground", "question": "Ele é do tipo terra?"},
-    {"value": "metal", "question": "Ele é do tipo metal?"},
-    {"value": "fairy", "question": "Ele é do tipo fada?"},
-    {"value": "dragon", "question": "Ele é do tipo dragão?"},
-    {"value": "flying", "question": "Ele é do tipo voador?"}
+    {"value": "grass", "question": "O seu Pokémon é do tipo grama?"},
+    {"value": "dark", "question": "O seu Pokémon é do tipo sombra?"},
+    {"value": "fire", "question": "O seu Pokémon é do tipo fogo?"},
+    {"value": "water", "question": "O seu Pokémon é do tipo água?"},
+    {"value": "electric", "question": "O seu Pokémon é do tipo elétrico?"},
+    {"value": "psychic", "question": "O seu Pokémon é do tipo psíquico?"},
+    {"value": "ghost", "question": "O seu Pokémon é do tipo fantasma?"},
+    {"value": "poison", "question": "O seu Pokémon é do tipo veneno?"},
+    {"value": "normal", "question": "O seu Pokémon é do tipo normal?"},
+    {"value": "rock", "question": "O seu Pokémon é do tipo pedra?"},
+    {"value": "ground", "question": "O seu Pokémon é do tipo terra?"},
+    {"value": "metal", "question": "O seu Pokémon é do tipo metal?"},
+    {"value": "fairy", "question": "O seu Pokémon é do tipo fada?"},
+    {"value": "dragon", "question": "O seu Pokémon é do tipo dragão?"},
+    {"value": "flying", "question": "O seu Pokémon é do tipo voador?"}
   ],
 
   "colors": [
-    {"value": "blue", "question": "Ele é azul?"},
-    {"value": "green", "question": "Ele é verde?"},
-    {"value": "red", "question": "Ele é vermelho?"},
-    {"value": "yellow", "question": "Ele é amarelo?"},
-    {"value": "pink", "question": "Ele é rosa?"},
-    {"value": "gray", "question": "Ele é cinza?"},
-    {"value": "brown", "question": "Ele é marrom?"},
-    {"value": "purple", "question": "Ele é roxo?"}
+    {"value": "blue", "question": "O seu Pokémon é azul?"},
+    {"value": "green", "question": "O seu Pokémon é verde?"},
+    {"value": "red", "question": "O seu Pokémon é vermelho?"},
+    {"value": "yellow", "question": "O seu Pokémon é amarelo?"},
+    {"value": "pink", "question": "O seu Pokémon é rosa?"},
+    {"value": "gray", "question": "O seu Pokémon é cinza?"},
+    {"value": "brown", "question": "O seu Pokémon é marrom?"},
+    {"value": "purple", "question": "O seu Pokémon é roxo?"}
   ],
 
   "habitat": [
-    {"value": "forest", "question": "Ele vive em florestas?"},
-    {"value": "grassland", "question": "Ele vive em campos?"},
-    {"value": "mountain", "question": "Ele vive em montanhas?"},
-    {"value": "waters-edge", "question": "Ele vive perto da água?"},
-    {"value": "cave", "question": "Ele vive em cavernas?"},
-    {"value": "urban", "question": "Ele vive perto de cidades?"}
+    {"value": "forest", "question": "O seu Pokémon vive em florestas?"},
+    {"value": "grassland", "question": "O seu Pokémon vive em campos?"},
+    {"value": "mountain", "question": "O seu Pokémon vive em montanhas?"},
+    {"value": "waters-edge", "question": "O seu Pokémon vive perto da água?"},
+    {"value": "cave", "question": "O seu Pokémon vive em cavernas?"},
+    {"value": "urban", "question": "O seu Pokémon vive perto de cidades?"}
   ]
 
 }
