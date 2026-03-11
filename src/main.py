@@ -1,3 +1,5 @@
+import random
+
 from loader import load_pokemons, load_questions
 from utils import choose_best_question, init_log
 from engine import Answer, PokeAkinator
@@ -18,32 +20,41 @@ questions_data = load_questions()
 # -----------------------------
 # Cria atributos
 # -----------------------------
+QUESTION_SECTIONS = (
+    ("colors", "is_color_"),
+    ("attributes", ""),
+    ("types", "type_"),
+    ("habitat", "habitat_"),
+)
+
+RANDOM_QUESTIONS_NUMBER = 3
+
+
+def build_question_key(section_name, item):
+    if section_name == "attributes":
+        return item["key"]
+    return f"{dict(QUESTION_SECTIONS)[section_name]}{item['value']}"
+
+
 attributes = []
 all_attrs = {}
+questions_map = {}
 
-# cores
-for color in questions_data["colors"]:
-    color_value = color["value"]
-    attributes.append(f"is_color_{color_value}")
-
-# atributos gerais
-for attr in questions_data["attributes"]:
-    attributes.append(attr["key"])
-
-# tipos
-for pokemon_type in questions_data["types"]:
-    type_value = pokemon_type["value"]
-    attributes.append(f"type_{type_value}")
+for section_name, _prefix in QUESTION_SECTIONS:
+    for item in questions_data.get(section_name, []):
+        key = build_question_key(section_name, item)
+        attributes.append(key)
+        questions_map[key] = item["question"]
 
 # mapeia atributos
 for p in pokemon_data:
     attr_map = {}
 
-    for color in questions_data["colors"]:
+    for color in questions_data.get("colors", []):
         color_value = color["value"]
         attr_map[f"is_color_{color_value}"] = p.get("color") == color_value
 
-    for attr in questions_data["attributes"]:
+    for attr in questions_data.get("attributes", []):
         key = attr["key"]
         if key == "is_legendary":
             attr_map[key] = p.get("is_legendary", False)
@@ -64,26 +75,15 @@ for p in pokemon_data:
         else:
             attr_map[key] = bool(p.get(key, False))
 
-    for pokemon_type in questions_data["types"]:
+    for pokemon_type in questions_data.get("types", []):
         type_value = pokemon_type["value"]
         attr_map[f"type_{type_value}"] = type_value in p.get("types", [])
 
+    for habitat in questions_data.get("habitat", []):
+        habitat_value = habitat["value"]
+        attr_map[f"habitat_{habitat_value}"] = p.get("habitat") == habitat_value
+
     all_attrs[p["name"]] = attr_map
-
-# -----------------------------
-# Mapa perguntas
-# -----------------------------
-questions_map = {}
-for color in questions_data["colors"]:
-    color_value = color["value"]
-    questions_map[f"is_color_{color_value}"] = color["question"]
-
-for attr in questions_data["attributes"]:
-    questions_map[attr["key"]] = attr["question"]
-
-for pokemon_type in questions_data["types"]:
-    type_value = pokemon_type["value"]
-    questions_map[f"type_{type_value}"] = pokemon_type["question"]
 
 # -----------------------------
 # Inicializa motor
@@ -96,16 +96,28 @@ asked_attrs = set()
 # Loop de perguntas
 # -----------------------------
 while len(engine.possible_pokemons) > 1:
-    next_attr = choose_best_question(
-        engine.possible_pokemons, all_attrs, attributes, asked_attrs
-    )
+    remaining_attrs = [attr for attr in attributes if attr not in asked_attrs]
+    if len(asked_attrs) < RANDOM_QUESTIONS_NUMBER and remaining_attrs:
+        next_attr = random.choice(remaining_attrs)
+    else:
+        next_attr = choose_best_question(
+            engine.possible_pokemons, all_attrs, attributes, asked_attrs
+        )
+
     if not next_attr:
         break
 
-    answer = input(questions_map[next_attr] + " (s/n): ").strip().lower()
-    val = answer == "s"
-    engine.declare(Answer(attribute=next_attr, value=val))
-    engine.run()
+    while True:
+        answer = input(questions_map[next_attr] + " (s/n/nsei): ").strip().lower()
+        if answer in {"s", "n", "nsei"}:
+            break
+        print("Resposta invalida. Use 's', 'n' ou 'nsei'.")
+
+    if answer != "nsei":
+        val = answer == "s"
+        engine.declare(Answer(attribute=next_attr, value=val))
+        engine.run()
+
     asked_attrs.add(next_attr)
 
 # Resultado final
