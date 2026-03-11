@@ -1,212 +1,3393 @@
-[
+{
+  "pokemon": [
     {
-        "id": 1,
-        "name": "bulbasaur",
-        "color": "green",
-        "shape": "quadruped",
-        "habitat": "grassland",
-        "is_legendary": false,
-        "types": ["grass","poison"],
-        "has_multiple_types": true
+      "id": 1,
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "green",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 69,
+        "kilograms": 6.9
+      }
     },
     {
-        "id": 4,
-        "name": "charmander",
-        "color": "red",
-        "shape": "biped",
-        "habitat": "mountain",
-        "is_legendary": false,
-        "types": ["fire"],
-        "has_multiple_types": false
+      "id": 2,
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "green",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": "bulbasaur",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 130,
+        "kilograms": 13
+      }
     },
     {
-        "id": 7,
-        "name": "squirtle",
-        "color": "blue",
-        "shape": "biped",
-        "habitat": "waters-edge",
-        "is_legendary": false,
-        "types": ["water"],
-        "has_multiple_types": false
+      "id": 3,
+      "name": "venusaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/3/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "green",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": "ivysaur",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 1000,
+        "kilograms": 100
+      }
     },
     {
-        "id": 25,
-        "name": "pikachu",
-        "color": "yellow",
-        "shape": "quadruped",
-        "habitat": "forest",
-        "is_legendary": false,
-        "types": ["electric"],
-        "has_multiple_types": false
+      "id": 4,
+      "name": "charmander",
+      "url": "https://pokeapi.co/api/v2/pokemon/4/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "types": [
+        "fire"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "mountain",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 85,
+        "kilograms": 8.5
+      }
     },
     {
-        "id": 39,
-        "name": "jigglypuff",
-        "color": "pink",
-        "shape": "biped",
-        "habitat": "grassland",
-        "is_legendary": false,
-        "types": ["normal","fairy"],
-        "has_multiple_types": true
+      "id": 5,
+      "name": "charmeleon",
+      "url": "https://pokeapi.co/api/v2/pokemon/5/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "types": [
+        "fire"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "mountain",
+      "has_multiple_types": false,
+      "evolves_from": "charmander",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 190,
+        "kilograms": 19
+      }
     },
     {
-        "id": 52,
-        "name": "meowth",
-        "color": "yellow",
-        "shape": "biped",
-        "habitat": "urban",
-        "is_legendary": false,
-        "types": ["normal"],
-        "has_multiple_types": false
+      "id": 6,
+      "name": "charizard",
+      "url": "https://pokeapi.co/api/v2/pokemon/6/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "mountain",
+      "has_multiple_types": true,
+      "evolves_from": "charmeleon",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 905,
+        "kilograms": 90.5
+      }
     },
     {
-        "id": 63,
-        "name": "abra",
-        "color": "brown",
-        "shape": "biped",
-        "habitat": "urban",
-        "is_legendary": false,
-        "types": ["psychic"],
-        "has_multiple_types": false
+      "id": 7,
+      "name": "squirtle",
+      "url": "https://pokeapi.co/api/v2/pokemon/7/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 90,
+        "kilograms": 9
+      }
     },
     {
-        "id": 66,
-        "name": "machop",
-        "color": "gray",
-        "shape": "biped",
-        "habitat": "mountain",
-        "is_legendary": false,
-        "types": ["fighting"],
-        "has_multiple_types": false
+      "id": 8,
+      "name": "wartortle",
+      "url": "https://pokeapi.co/api/v2/pokemon/8/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": "squirtle",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 225,
+        "kilograms": 22.5
+      }
     },
     {
-        "id": 74,
-        "name": "geodude",
-        "color": "gray",
-        "shape": "ball",
-        "habitat": "mountain",
-        "is_legendary": false,
-        "types": ["rock","ground"],
-        "has_multiple_types": true
+      "id": 9,
+      "name": "blastoise",
+      "url": "https://pokeapi.co/api/v2/pokemon/9/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": "wartortle",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 855,
+        "kilograms": 85.5
+      }
     },
     {
-        "id": 81,
-        "name": "magnemite",
-        "color": "gray",
-        "shape": "none",
-        "habitat": "urban",
-        "is_legendary": false,
-        "types": ["electric","steel"],
-        "has_multiple_types": true
+      "id": 10,
+      "name": "caterpie",
+      "url": "https://pokeapi.co/api/v2/pokemon/10/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+      "types": [
+        "bug"
+      ],
+      "generation": "generation-i",
+      "color": "green",
+      "habitat": "forest",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 29,
+        "kilograms": 2.9
+      }
     },
     {
-        "id": 92,
-        "name": "gastly",
-        "color": "purple",
-        "shape": "ball",
-        "habitat": "cave",
-        "is_legendary": false,
-        "types": ["ghost","poison"],
-        "has_multiple_types": true
+      "id": 11,
+      "name": "metapod",
+      "url": "https://pokeapi.co/api/v2/pokemon/11/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+      "types": [
+        "bug"
+      ],
+      "generation": "generation-i",
+      "color": "green",
+      "habitat": "forest",
+      "has_multiple_types": false,
+      "evolves_from": "caterpie",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 99,
+        "kilograms": 9.9
+      }
     },
     {
-        "id": 95,
-        "name": "onix",
-        "color": "gray",
-        "shape": "serpentine",
-        "habitat": "mountain",
-        "is_legendary": false,
-        "types": ["rock","ground"],
-        "has_multiple_types": true
+      "id": 12,
+      "name": "butterfree",
+      "url": "https://pokeapi.co/api/v2/pokemon/12/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "white",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": "metapod",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 320,
+        "kilograms": 32
+      }
     },
     {
-        "id": 102,
-        "name": "exeggcute",
-        "color": "pink",
-        "shape": "ball",
-        "habitat": "grassland",
-        "is_legendary": false,
-        "types": ["grass","psychic"],
-        "has_multiple_types": true
+      "id": 13,
+      "name": "weedle",
+      "url": "https://pokeapi.co/api/v2/pokemon/13/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 32,
+        "kilograms": 3.2
+      }
     },
     {
-        "id": 109,
-        "name": "koffing",
-        "color": "purple",
-        "shape": "ball",
-        "habitat": "urban",
-        "is_legendary": false,
-        "types": ["poison"],
-        "has_multiple_types": false
+      "id": 14,
+      "name": "kakuna",
+      "url": "https://pokeapi.co/api/v2/pokemon/14/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": "weedle",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 100,
+        "kilograms": 10
+      }
     },
     {
-        "id": 116,
-        "name": "horsea",
-        "color": "brown",
-        "shape": "quadruped",
-        "habitat": "grassland",
-        "is_legendary": false,
-        "types": ["ground"],
-        "has_multiple_types": false
+      "id": 15,
+      "name": "beedrill",
+      "url": "https://pokeapi.co/api/v2/pokemon/15/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": "kakuna",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 295,
+        "kilograms": 29.5
+      }
     },
     {
-        "id": 120,
-        "name": "staryu",
-        "color": "brown",
-        "shape": "starfish",
-        "habitat": "waters-edge",
-        "is_legendary": false,
-        "types": ["water"],
-        "has_multiple_types": false
+      "id": 16,
+      "name": "pidgey",
+      "url": "https://pokeapi.co/api/v2/pokemon/16/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 18,
+        "kilograms": 1.8
+      }
     },
     {
-        "id": 129,
-        "name": "magikarp",
-        "color": "red",
-        "shape": "fish",
-        "habitat": "waters-edge",
-        "is_legendary": false,
-        "types": ["water"],
-        "has_multiple_types": false
+      "id": 17,
+      "name": "pidgeotto",
+      "url": "https://pokeapi.co/api/v2/pokemon/17/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": "pidgey",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 300,
+        "kilograms": 30
+      }
     },
     {
-        "id": 133,
-        "name": "eevee",
-        "color": "brown",
-        "shape": "quadruped",
-        "habitat": "urban",
-        "is_legendary": false,
-        "types": ["normal"],
-        "has_multiple_types": false
+      "id": 18,
+      "name": "pidgeot",
+      "url": "https://pokeapi.co/api/v2/pokemon/18/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": "pidgeotto",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 395,
+        "kilograms": 39.5
+      }
     },
     {
-        "id": 138,
-        "name": "omanyte",
-        "color": "brown",
-        "shape": "tentacled",
-        "habitat": "waters-edge",
-        "is_legendary": false,
-        "types": ["rock","water"],
-        "has_multiple_types": true
+      "id": 19,
+      "name": "rattata",
+      "url": "https://pokeapi.co/api/v2/pokemon/19/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+      "types": [
+        "normal"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 35,
+        "kilograms": 3.5
+      }
     },
     {
-        "id": 143,
-        "name": "snorlax",
-        "color": "black",
-        "shape": "biped",
-        "habitat": "grassland",
-        "is_legendary": false,
-        "types": ["normal"],
-        "has_multiple_types": false
+      "id": 20,
+      "name": "raticate",
+      "url": "https://pokeapi.co/api/v2/pokemon/20/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+      "types": [
+        "normal"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": "rattata",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 185,
+        "kilograms": 18.5
+      }
     },
     {
-        "id": 150,
-        "name": "mewtwo",
-        "color": "purple",
-        "shape": "biped",
-        "habitat": "rare",
-        "is_legendary": true,
-        "types": ["psychic"],
-        "has_multiple_types": false
+      "id": 21,
+      "name": "spearow",
+      "url": "https://pokeapi.co/api/v2/pokemon/21/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "rough-terrain",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 20,
+        "kilograms": 2
+      }
+    },
+    {
+      "id": 22,
+      "name": "fearow",
+      "url": "https://pokeapi.co/api/v2/pokemon/22/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "rough-terrain",
+      "has_multiple_types": true,
+      "evolves_from": "spearow",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 380,
+        "kilograms": 38
+      }
+    },
+    {
+      "id": 23,
+      "name": "ekans",
+      "url": "https://pokeapi.co/api/v2/pokemon/23/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+      "types": [
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 69,
+        "kilograms": 6.9
+      }
+    },
+    {
+      "id": 24,
+      "name": "arbok",
+      "url": "https://pokeapi.co/api/v2/pokemon/24/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+      "types": [
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": "ekans",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 650,
+        "kilograms": 65
+      }
+    },
+    {
+      "id": 25,
+      "name": "pikachu",
+      "url": "https://pokeapi.co/api/v2/pokemon/25/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+      "types": [
+        "electric"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "forest",
+      "has_multiple_types": false,
+      "evolves_from": "pichu",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 60,
+        "kilograms": 6
+      }
+    },
+    {
+      "id": 26,
+      "name": "raichu",
+      "url": "https://pokeapi.co/api/v2/pokemon/26/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+      "types": [
+        "electric"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "forest",
+      "has_multiple_types": false,
+      "evolves_from": "pikachu",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 300,
+        "kilograms": 30
+      }
+    },
+    {
+      "id": 27,
+      "name": "sandshrew",
+      "url": "https://pokeapi.co/api/v2/pokemon/27/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+      "types": [
+        "ground"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "rough-terrain",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 120,
+        "kilograms": 12
+      }
+    },
+    {
+      "id": 28,
+      "name": "sandslash",
+      "url": "https://pokeapi.co/api/v2/pokemon/28/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+      "types": [
+        "ground"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "rough-terrain",
+      "has_multiple_types": false,
+      "evolves_from": "sandshrew",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 295,
+        "kilograms": 29.5
+      }
+    },
+    {
+      "id": 29,
+      "name": "nidoran-f",
+      "url": "https://pokeapi.co/api/v2/pokemon/29/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+      "types": [
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 70,
+        "kilograms": 7
+      }
+    },
+    {
+      "id": 30,
+      "name": "nidorina",
+      "url": "https://pokeapi.co/api/v2/pokemon/30/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+      "types": [
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": "nidoran-f",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 200,
+        "kilograms": 20
+      }
+    },
+    {
+      "id": 31,
+      "name": "nidoqueen",
+      "url": "https://pokeapi.co/api/v2/pokemon/31/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+      "types": [
+        "poison",
+        "ground"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": "nidorina",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 600,
+        "kilograms": 60
+      }
+    },
+    {
+      "id": 32,
+      "name": "nidoran-m",
+      "url": "https://pokeapi.co/api/v2/pokemon/32/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+      "types": [
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 90,
+        "kilograms": 9
+      }
+    },
+    {
+      "id": 33,
+      "name": "nidorino",
+      "url": "https://pokeapi.co/api/v2/pokemon/33/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+      "types": [
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": "nidoran-m",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 195,
+        "kilograms": 19.5
+      }
+    },
+    {
+      "id": 34,
+      "name": "nidoking",
+      "url": "https://pokeapi.co/api/v2/pokemon/34/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+      "types": [
+        "poison",
+        "ground"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": "nidorino",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 620,
+        "kilograms": 62
+      }
+    },
+    {
+      "id": 35,
+      "name": "clefairy",
+      "url": "https://pokeapi.co/api/v2/pokemon/35/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+      "types": [
+        "fairy"
+      ],
+      "generation": "generation-i",
+      "color": "pink",
+      "habitat": "mountain",
+      "has_multiple_types": false,
+      "evolves_from": "cleffa",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 75,
+        "kilograms": 7.5
+      }
+    },
+    {
+      "id": 36,
+      "name": "clefable",
+      "url": "https://pokeapi.co/api/v2/pokemon/36/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+      "types": [
+        "fairy"
+      ],
+      "generation": "generation-i",
+      "color": "pink",
+      "habitat": "mountain",
+      "has_multiple_types": false,
+      "evolves_from": "clefairy",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 400,
+        "kilograms": 40
+      }
+    },
+    {
+      "id": 37,
+      "name": "vulpix",
+      "url": "https://pokeapi.co/api/v2/pokemon/37/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+      "types": [
+        "fire"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 99,
+        "kilograms": 9.9
+      }
+    },
+    {
+      "id": 38,
+      "name": "ninetales",
+      "url": "https://pokeapi.co/api/v2/pokemon/38/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+      "types": [
+        "fire"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": "vulpix",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 199,
+        "kilograms": 19.9
+      }
+    },
+    {
+      "id": 39,
+      "name": "jigglypuff",
+      "url": "https://pokeapi.co/api/v2/pokemon/39/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+      "types": [
+        "normal",
+        "fairy"
+      ],
+      "generation": "generation-i",
+      "color": "pink",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": "igglybuff",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 55,
+        "kilograms": 5.5
+      }
+    },
+    {
+      "id": 40,
+      "name": "wigglytuff",
+      "url": "https://pokeapi.co/api/v2/pokemon/40/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+      "types": [
+        "normal",
+        "fairy"
+      ],
+      "generation": "generation-i",
+      "color": "pink",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": "jigglypuff",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 120,
+        "kilograms": 12
+      }
+    },
+    {
+      "id": 41,
+      "name": "zubat",
+      "url": "https://pokeapi.co/api/v2/pokemon/41/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "cave",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 75,
+        "kilograms": 7.5
+      }
+    },
+    {
+      "id": 42,
+      "name": "golbat",
+      "url": "https://pokeapi.co/api/v2/pokemon/42/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "cave",
+      "has_multiple_types": true,
+      "evolves_from": "zubat",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 550,
+        "kilograms": 55
+      }
+    },
+    {
+      "id": 43,
+      "name": "oddish",
+      "url": "https://pokeapi.co/api/v2/pokemon/43/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 54,
+        "kilograms": 5.4
+      }
+    },
+    {
+      "id": 44,
+      "name": "gloom",
+      "url": "https://pokeapi.co/api/v2/pokemon/44/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": "oddish",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 86,
+        "kilograms": 8.6
+      }
+    },
+    {
+      "id": 45,
+      "name": "vileplume",
+      "url": "https://pokeapi.co/api/v2/pokemon/45/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": "gloom",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 186,
+        "kilograms": 18.6
+      }
+    },
+    {
+      "id": 46,
+      "name": "paras",
+      "url": "https://pokeapi.co/api/v2/pokemon/46/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 54,
+        "kilograms": 5.4
+      }
+    },
+    {
+      "id": 47,
+      "name": "parasect",
+      "url": "https://pokeapi.co/api/v2/pokemon/47/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": "paras",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 295,
+        "kilograms": 29.5
+      }
+    },
+    {
+      "id": 48,
+      "name": "venonat",
+      "url": "https://pokeapi.co/api/v2/pokemon/48/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 300,
+        "kilograms": 30
+      }
+    },
+    {
+      "id": 49,
+      "name": "venomoth",
+      "url": "https://pokeapi.co/api/v2/pokemon/49/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": "venonat",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 125,
+        "kilograms": 12.5
+      }
+    },
+    {
+      "id": 50,
+      "name": "diglett",
+      "url": "https://pokeapi.co/api/v2/pokemon/50/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+      "types": [
+        "ground"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "cave",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 8,
+        "kilograms": 0.8
+      }
+    },
+    {
+      "id": 51,
+      "name": "dugtrio",
+      "url": "https://pokeapi.co/api/v2/pokemon/51/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+      "types": [
+        "ground"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "cave",
+      "has_multiple_types": false,
+      "evolves_from": "diglett",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 333,
+        "kilograms": 33.3
+      }
+    },
+    {
+      "id": 52,
+      "name": "meowth",
+      "url": "https://pokeapi.co/api/v2/pokemon/52/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+      "types": [
+        "normal"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 42,
+        "kilograms": 4.2
+      }
+    },
+    {
+      "id": 53,
+      "name": "persian",
+      "url": "https://pokeapi.co/api/v2/pokemon/53/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+      "types": [
+        "normal"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": "meowth",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 320,
+        "kilograms": 32
+      }
+    },
+    {
+      "id": 54,
+      "name": "psyduck",
+      "url": "https://pokeapi.co/api/v2/pokemon/54/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 196,
+        "kilograms": 19.6
+      }
+    },
+    {
+      "id": 55,
+      "name": "golduck",
+      "url": "https://pokeapi.co/api/v2/pokemon/55/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": "psyduck",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 766,
+        "kilograms": 76.6
+      }
+    },
+    {
+      "id": 56,
+      "name": "mankey",
+      "url": "https://pokeapi.co/api/v2/pokemon/56/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+      "types": [
+        "fighting"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "mountain",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 280,
+        "kilograms": 28
+      }
+    },
+    {
+      "id": 57,
+      "name": "primeape",
+      "url": "https://pokeapi.co/api/v2/pokemon/57/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+      "types": [
+        "fighting"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "mountain",
+      "has_multiple_types": false,
+      "evolves_from": "mankey",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 320,
+        "kilograms": 32
+      }
+    },
+    {
+      "id": 58,
+      "name": "growlithe",
+      "url": "https://pokeapi.co/api/v2/pokemon/58/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+      "types": [
+        "fire"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 190,
+        "kilograms": 19
+      }
+    },
+    {
+      "id": 59,
+      "name": "arcanine",
+      "url": "https://pokeapi.co/api/v2/pokemon/59/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+      "types": [
+        "fire"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": "growlithe",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 1550,
+        "kilograms": 155
+      }
+    },
+    {
+      "id": 60,
+      "name": "poliwag",
+      "url": "https://pokeapi.co/api/v2/pokemon/60/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 124,
+        "kilograms": 12.4
+      }
+    },
+    {
+      "id": 61,
+      "name": "poliwhirl",
+      "url": "https://pokeapi.co/api/v2/pokemon/61/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": "poliwag",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 200,
+        "kilograms": 20
+      }
+    },
+    {
+      "id": 62,
+      "name": "poliwrath",
+      "url": "https://pokeapi.co/api/v2/pokemon/62/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+      "types": [
+        "water",
+        "fighting"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "waters-edge",
+      "has_multiple_types": true,
+      "evolves_from": "poliwhirl",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 540,
+        "kilograms": 54
+      }
+    },
+    {
+      "id": 63,
+      "name": "abra",
+      "url": "https://pokeapi.co/api/v2/pokemon/63/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+      "types": [
+        "psychic"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 195,
+        "kilograms": 19.5
+      }
+    },
+    {
+      "id": 64,
+      "name": "kadabra",
+      "url": "https://pokeapi.co/api/v2/pokemon/64/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+      "types": [
+        "psychic"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": "abra",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 565,
+        "kilograms": 56.5
+      }
+    },
+    {
+      "id": 65,
+      "name": "alakazam",
+      "url": "https://pokeapi.co/api/v2/pokemon/65/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+      "types": [
+        "psychic"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": "kadabra",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 480,
+        "kilograms": 48
+      }
+    },
+    {
+      "id": 66,
+      "name": "machop",
+      "url": "https://pokeapi.co/api/v2/pokemon/66/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+      "types": [
+        "fighting"
+      ],
+      "generation": "generation-i",
+      "color": "gray",
+      "habitat": "mountain",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 195,
+        "kilograms": 19.5
+      }
+    },
+    {
+      "id": 67,
+      "name": "machoke",
+      "url": "https://pokeapi.co/api/v2/pokemon/67/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+      "types": [
+        "fighting"
+      ],
+      "generation": "generation-i",
+      "color": "gray",
+      "habitat": "mountain",
+      "has_multiple_types": false,
+      "evolves_from": "machop",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 705,
+        "kilograms": 70.5
+      }
+    },
+    {
+      "id": 68,
+      "name": "machamp",
+      "url": "https://pokeapi.co/api/v2/pokemon/68/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+      "types": [
+        "fighting"
+      ],
+      "generation": "generation-i",
+      "color": "gray",
+      "habitat": "mountain",
+      "has_multiple_types": false,
+      "evolves_from": "machoke",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 1300,
+        "kilograms": 130
+      }
+    },
+    {
+      "id": 69,
+      "name": "bellsprout",
+      "url": "https://pokeapi.co/api/v2/pokemon/69/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "green",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 40,
+        "kilograms": 4
+      }
+    },
+    {
+      "id": 70,
+      "name": "weepinbell",
+      "url": "https://pokeapi.co/api/v2/pokemon/70/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "green",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": "bellsprout",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 64,
+        "kilograms": 6.4
+      }
+    },
+    {
+      "id": 71,
+      "name": "victreebel",
+      "url": "https://pokeapi.co/api/v2/pokemon/71/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "green",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": "weepinbell",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 155,
+        "kilograms": 15.5
+      }
+    },
+    {
+      "id": 72,
+      "name": "tentacool",
+      "url": "https://pokeapi.co/api/v2/pokemon/72/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "sea",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 455,
+        "kilograms": 45.5
+      }
+    },
+    {
+      "id": 73,
+      "name": "tentacruel",
+      "url": "https://pokeapi.co/api/v2/pokemon/73/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "sea",
+      "has_multiple_types": true,
+      "evolves_from": "tentacool",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 550,
+        "kilograms": 55
+      }
+    },
+    {
+      "id": 74,
+      "name": "geodude",
+      "url": "https://pokeapi.co/api/v2/pokemon/74/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "mountain",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 200,
+        "kilograms": 20
+      }
+    },
+    {
+      "id": 75,
+      "name": "graveler",
+      "url": "https://pokeapi.co/api/v2/pokemon/75/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "mountain",
+      "has_multiple_types": true,
+      "evolves_from": "geodude",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 1050,
+        "kilograms": 105
+      }
+    },
+    {
+      "id": 76,
+      "name": "golem",
+      "url": "https://pokeapi.co/api/v2/pokemon/76/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "mountain",
+      "has_multiple_types": true,
+      "evolves_from": "graveler",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 3000,
+        "kilograms": 300
+      }
+    },
+    {
+      "id": 77,
+      "name": "ponyta",
+      "url": "https://pokeapi.co/api/v2/pokemon/77/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+      "types": [
+        "fire"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 300,
+        "kilograms": 30
+      }
+    },
+    {
+      "id": 78,
+      "name": "rapidash",
+      "url": "https://pokeapi.co/api/v2/pokemon/78/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+      "types": [
+        "fire"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": "ponyta",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 950,
+        "kilograms": 95
+      }
+    },
+    {
+      "id": 79,
+      "name": "slowpoke",
+      "url": "https://pokeapi.co/api/v2/pokemon/79/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "generation": "generation-i",
+      "color": "pink",
+      "habitat": "waters-edge",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 360,
+        "kilograms": 36
+      }
+    },
+    {
+      "id": 80,
+      "name": "slowbro",
+      "url": "https://pokeapi.co/api/v2/pokemon/80/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "generation": "generation-i",
+      "color": "pink",
+      "habitat": "waters-edge",
+      "has_multiple_types": true,
+      "evolves_from": "slowpoke",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 785,
+        "kilograms": 78.5
+      }
+    },
+    {
+      "id": 81,
+      "name": "magnemite",
+      "url": "https://pokeapi.co/api/v2/pokemon/81/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "generation": "generation-i",
+      "color": "gray",
+      "habitat": "rough-terrain",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 60,
+        "kilograms": 6
+      }
+    },
+    {
+      "id": 82,
+      "name": "magneton",
+      "url": "https://pokeapi.co/api/v2/pokemon/82/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "generation": "generation-i",
+      "color": "gray",
+      "habitat": "rough-terrain",
+      "has_multiple_types": true,
+      "evolves_from": "magnemite",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 600,
+        "kilograms": 60
+      }
+    },
+    {
+      "id": 83,
+      "name": "farfetchd",
+      "url": "https://pokeapi.co/api/v2/pokemon/83/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 150,
+        "kilograms": 15
+      }
+    },
+    {
+      "id": 84,
+      "name": "doduo",
+      "url": "https://pokeapi.co/api/v2/pokemon/84/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 392,
+        "kilograms": 39.2
+      }
+    },
+    {
+      "id": 85,
+      "name": "dodrio",
+      "url": "https://pokeapi.co/api/v2/pokemon/85/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": "doduo",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 852,
+        "kilograms": 85.2
+      }
+    },
+    {
+      "id": 86,
+      "name": "seel",
+      "url": "https://pokeapi.co/api/v2/pokemon/86/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "white",
+      "habitat": "sea",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 900,
+        "kilograms": 90
+      }
+    },
+    {
+      "id": 87,
+      "name": "dewgong",
+      "url": "https://pokeapi.co/api/v2/pokemon/87/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "generation": "generation-i",
+      "color": "white",
+      "habitat": "sea",
+      "has_multiple_types": true,
+      "evolves_from": "seel",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 1200,
+        "kilograms": 120
+      }
+    },
+    {
+      "id": 88,
+      "name": "grimer",
+      "url": "https://pokeapi.co/api/v2/pokemon/88/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+      "types": [
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 300,
+        "kilograms": 30
+      }
+    },
+    {
+      "id": 89,
+      "name": "muk",
+      "url": "https://pokeapi.co/api/v2/pokemon/89/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+      "types": [
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": "grimer",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 300,
+        "kilograms": 30
+      }
+    },
+    {
+      "id": 90,
+      "name": "shellder",
+      "url": "https://pokeapi.co/api/v2/pokemon/90/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "sea",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 40,
+        "kilograms": 4
+      }
+    },
+    {
+      "id": 91,
+      "name": "cloyster",
+      "url": "https://pokeapi.co/api/v2/pokemon/91/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "sea",
+      "has_multiple_types": true,
+      "evolves_from": "shellder",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 1325,
+        "kilograms": 132.5
+      }
+    },
+    {
+      "id": 92,
+      "name": "gastly",
+      "url": "https://pokeapi.co/api/v2/pokemon/92/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "cave",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 1,
+        "kilograms": 0.1
+      }
+    },
+    {
+      "id": 93,
+      "name": "haunter",
+      "url": "https://pokeapi.co/api/v2/pokemon/93/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "cave",
+      "has_multiple_types": true,
+      "evolves_from": "gastly",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 1,
+        "kilograms": 0.1
+      }
+    },
+    {
+      "id": 94,
+      "name": "gengar",
+      "url": "https://pokeapi.co/api/v2/pokemon/94/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "cave",
+      "has_multiple_types": true,
+      "evolves_from": "haunter",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 405,
+        "kilograms": 40.5
+      }
+    },
+    {
+      "id": 95,
+      "name": "onix",
+      "url": "https://pokeapi.co/api/v2/pokemon/95/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "generation": "generation-i",
+      "color": "gray",
+      "habitat": "cave",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 2100,
+        "kilograms": 210
+      }
+    },
+    {
+      "id": 96,
+      "name": "drowzee",
+      "url": "https://pokeapi.co/api/v2/pokemon/96/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+      "types": [
+        "psychic"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 324,
+        "kilograms": 32.4
+      }
+    },
+    {
+      "id": 97,
+      "name": "hypno",
+      "url": "https://pokeapi.co/api/v2/pokemon/97/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+      "types": [
+        "psychic"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": "drowzee",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 756,
+        "kilograms": 75.6
+      }
+    },
+    {
+      "id": 98,
+      "name": "krabby",
+      "url": "https://pokeapi.co/api/v2/pokemon/98/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 65,
+        "kilograms": 6.5
+      }
+    },
+    {
+      "id": 99,
+      "name": "kingler",
+      "url": "https://pokeapi.co/api/v2/pokemon/99/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": "krabby",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 600,
+        "kilograms": 60
+      }
+    },
+    {
+      "id": 100,
+      "name": "voltorb",
+      "url": "https://pokeapi.co/api/v2/pokemon/100/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+      "types": [
+        "electric"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 104,
+        "kilograms": 10.4
+      }
+    },
+    {
+      "id": 101,
+      "name": "electrode",
+      "url": "https://pokeapi.co/api/v2/pokemon/101/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+      "types": [
+        "electric"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": "voltorb",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 666,
+        "kilograms": 66.6
+      }
+    },
+    {
+      "id": 102,
+      "name": "exeggcute",
+      "url": "https://pokeapi.co/api/v2/pokemon/102/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "generation": "generation-i",
+      "color": "pink",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 25,
+        "kilograms": 2.5
+      }
+    },
+    {
+      "id": 103,
+      "name": "exeggutor",
+      "url": "https://pokeapi.co/api/v2/pokemon/103/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "forest",
+      "has_multiple_types": true,
+      "evolves_from": "exeggcute",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 1200,
+        "kilograms": 120
+      }
+    },
+    {
+      "id": 104,
+      "name": "cubone",
+      "url": "https://pokeapi.co/api/v2/pokemon/104/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+      "types": [
+        "ground"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "mountain",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 65,
+        "kilograms": 6.5
+      }
+    },
+    {
+      "id": 105,
+      "name": "marowak",
+      "url": "https://pokeapi.co/api/v2/pokemon/105/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+      "types": [
+        "ground"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "mountain",
+      "has_multiple_types": false,
+      "evolves_from": "cubone",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 450,
+        "kilograms": 45
+      }
+    },
+    {
+      "id": 106,
+      "name": "hitmonlee",
+      "url": "https://pokeapi.co/api/v2/pokemon/106/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+      "types": [
+        "fighting"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": "tyrogue",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 498,
+        "kilograms": 49.8
+      }
+    },
+    {
+      "id": 107,
+      "name": "hitmonchan",
+      "url": "https://pokeapi.co/api/v2/pokemon/107/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+      "types": [
+        "fighting"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": "tyrogue",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 502,
+        "kilograms": 50.2
+      }
+    },
+    {
+      "id": 108,
+      "name": "lickitung",
+      "url": "https://pokeapi.co/api/v2/pokemon/108/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+      "types": [
+        "normal"
+      ],
+      "generation": "generation-i",
+      "color": "pink",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 655,
+        "kilograms": 65.5
+      }
+    },
+    {
+      "id": 109,
+      "name": "koffing",
+      "url": "https://pokeapi.co/api/v2/pokemon/109/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+      "types": [
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 10,
+        "kilograms": 1
+      }
+    },
+    {
+      "id": 110,
+      "name": "weezing",
+      "url": "https://pokeapi.co/api/v2/pokemon/110/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+      "types": [
+        "poison"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": "koffing",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 95,
+        "kilograms": 9.5
+      }
+    },
+    {
+      "id": 111,
+      "name": "rhyhorn",
+      "url": "https://pokeapi.co/api/v2/pokemon/111/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "generation": "generation-i",
+      "color": "gray",
+      "habitat": "rough-terrain",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 1150,
+        "kilograms": 115
+      }
+    },
+    {
+      "id": 112,
+      "name": "rhydon",
+      "url": "https://pokeapi.co/api/v2/pokemon/112/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "generation": "generation-i",
+      "color": "gray",
+      "habitat": "rough-terrain",
+      "has_multiple_types": true,
+      "evolves_from": "rhyhorn",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 1200,
+        "kilograms": 120
+      }
+    },
+    {
+      "id": 113,
+      "name": "chansey",
+      "url": "https://pokeapi.co/api/v2/pokemon/113/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+      "types": [
+        "normal"
+      ],
+      "generation": "generation-i",
+      "color": "pink",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": "happiny",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 346,
+        "kilograms": 34.6
+      }
+    },
+    {
+      "id": 114,
+      "name": "tangela",
+      "url": "https://pokeapi.co/api/v2/pokemon/114/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+      "types": [
+        "grass"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 350,
+        "kilograms": 35
+      }
+    },
+    {
+      "id": 115,
+      "name": "kangaskhan",
+      "url": "https://pokeapi.co/api/v2/pokemon/115/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+      "types": [
+        "normal"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 800,
+        "kilograms": 80
+      }
+    },
+    {
+      "id": 116,
+      "name": "horsea",
+      "url": "https://pokeapi.co/api/v2/pokemon/116/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "sea",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 80,
+        "kilograms": 8
+      }
+    },
+    {
+      "id": 117,
+      "name": "seadra",
+      "url": "https://pokeapi.co/api/v2/pokemon/117/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "sea",
+      "has_multiple_types": false,
+      "evolves_from": "horsea",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 250,
+        "kilograms": 25
+      }
+    },
+    {
+      "id": 118,
+      "name": "goldeen",
+      "url": "https://pokeapi.co/api/v2/pokemon/118/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 150,
+        "kilograms": 15
+      }
+    },
+    {
+      "id": 119,
+      "name": "seaking",
+      "url": "https://pokeapi.co/api/v2/pokemon/119/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": "goldeen",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 390,
+        "kilograms": 39
+      }
+    },
+    {
+      "id": 120,
+      "name": "staryu",
+      "url": "https://pokeapi.co/api/v2/pokemon/120/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "sea",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 345,
+        "kilograms": 34.5
+      }
+    },
+    {
+      "id": 121,
+      "name": "starmie",
+      "url": "https://pokeapi.co/api/v2/pokemon/121/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "sea",
+      "has_multiple_types": true,
+      "evolves_from": "staryu",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 800,
+        "kilograms": 80
+      }
+    },
+    {
+      "id": 122,
+      "name": "mr-mime",
+      "url": "https://pokeapi.co/api/v2/pokemon/122/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "generation": "generation-i",
+      "color": "pink",
+      "habitat": "urban",
+      "has_multiple_types": true,
+      "evolves_from": "mime-jr",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 545,
+        "kilograms": 54.5
+      }
+    },
+    {
+      "id": 123,
+      "name": "scyther",
+      "url": "https://pokeapi.co/api/v2/pokemon/123/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "green",
+      "habitat": "grassland",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 560,
+        "kilograms": 56
+      }
+    },
+    {
+      "id": 124,
+      "name": "jynx",
+      "url": "https://pokeapi.co/api/v2/pokemon/124/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+      "types": [
+        "ice",
+        "psychic"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "urban",
+      "has_multiple_types": true,
+      "evolves_from": "smoochum",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 406,
+        "kilograms": 40.6
+      }
+    },
+    {
+      "id": 125,
+      "name": "electabuzz",
+      "url": "https://pokeapi.co/api/v2/pokemon/125/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+      "types": [
+        "electric"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": "elekid",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 300,
+        "kilograms": 30
+      }
+    },
+    {
+      "id": 126,
+      "name": "magmar",
+      "url": "https://pokeapi.co/api/v2/pokemon/126/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+      "types": [
+        "fire"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "mountain",
+      "has_multiple_types": false,
+      "evolves_from": "magby",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 445,
+        "kilograms": 44.5
+      }
+    },
+    {
+      "id": 127,
+      "name": "pinsir",
+      "url": "https://pokeapi.co/api/v2/pokemon/127/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+      "types": [
+        "bug"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "forest",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 550,
+        "kilograms": 55
+      }
+    },
+    {
+      "id": 128,
+      "name": "tauros",
+      "url": "https://pokeapi.co/api/v2/pokemon/128/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+      "types": [
+        "normal"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "grassland",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 884,
+        "kilograms": 88.4
+      }
+    },
+    {
+      "id": 129,
+      "name": "magikarp",
+      "url": "https://pokeapi.co/api/v2/pokemon/129/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 100,
+        "kilograms": 10
+      }
+    },
+    {
+      "id": 130,
+      "name": "gyarados",
+      "url": "https://pokeapi.co/api/v2/pokemon/130/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+      "types": [
+        "water",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "waters-edge",
+      "has_multiple_types": true,
+      "evolves_from": "magikarp",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 2350,
+        "kilograms": 235
+      }
+    },
+    {
+      "id": 131,
+      "name": "lapras",
+      "url": "https://pokeapi.co/api/v2/pokemon/131/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "sea",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 2200,
+        "kilograms": 220
+      }
+    },
+    {
+      "id": 132,
+      "name": "ditto",
+      "url": "https://pokeapi.co/api/v2/pokemon/132/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+      "types": [
+        "normal"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 40,
+        "kilograms": 4
+      }
+    },
+    {
+      "id": 133,
+      "name": "eevee",
+      "url": "https://pokeapi.co/api/v2/pokemon/133/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+      "types": [
+        "normal"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 65,
+        "kilograms": 6.5
+      }
+    },
+    {
+      "id": 134,
+      "name": "vaporeon",
+      "url": "https://pokeapi.co/api/v2/pokemon/134/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+      "types": [
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": "eevee",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 290,
+        "kilograms": 29
+      }
+    },
+    {
+      "id": 135,
+      "name": "jolteon",
+      "url": "https://pokeapi.co/api/v2/pokemon/135/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+      "types": [
+        "electric"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": "eevee",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 245,
+        "kilograms": 24.5
+      }
+    },
+    {
+      "id": 136,
+      "name": "flareon",
+      "url": "https://pokeapi.co/api/v2/pokemon/136/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+      "types": [
+        "fire"
+      ],
+      "generation": "generation-i",
+      "color": "red",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": "eevee",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 250,
+        "kilograms": 25
+      }
+    },
+    {
+      "id": 137,
+      "name": "porygon",
+      "url": "https://pokeapi.co/api/v2/pokemon/137/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+      "types": [
+        "normal"
+      ],
+      "generation": "generation-i",
+      "color": "pink",
+      "habitat": "urban",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 365,
+        "kilograms": 36.5
+      }
+    },
+    {
+      "id": 138,
+      "name": "omanyte",
+      "url": "https://pokeapi.co/api/v2/pokemon/138/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "sea",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 75,
+        "kilograms": 7.5
+      }
+    },
+    {
+      "id": 139,
+      "name": "omastar",
+      "url": "https://pokeapi.co/api/v2/pokemon/139/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "sea",
+      "has_multiple_types": true,
+      "evolves_from": "omanyte",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 350,
+        "kilograms": 35
+      }
+    },
+    {
+      "id": 140,
+      "name": "kabuto",
+      "url": "https://pokeapi.co/api/v2/pokemon/140/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "sea",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 115,
+        "kilograms": 11.5
+      }
+    },
+    {
+      "id": 141,
+      "name": "kabutops",
+      "url": "https://pokeapi.co/api/v2/pokemon/141/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "sea",
+      "has_multiple_types": true,
+      "evolves_from": "kabuto",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 405,
+        "kilograms": 40.5
+      }
+    },
+    {
+      "id": 142,
+      "name": "aerodactyl",
+      "url": "https://pokeapi.co/api/v2/pokemon/142/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "mountain",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 590,
+        "kilograms": 59
+      }
+    },
+    {
+      "id": 143,
+      "name": "snorlax",
+      "url": "https://pokeapi.co/api/v2/pokemon/143/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+      "types": [
+        "normal"
+      ],
+      "generation": "generation-i",
+      "color": "black",
+      "habitat": "mountain",
+      "has_multiple_types": false,
+      "evolves_from": "munchlax",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 4600,
+        "kilograms": 460
+      }
+    },
+    {
+      "id": 144,
+      "name": "articuno",
+      "url": "https://pokeapi.co/api/v2/pokemon/144/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+      "types": [
+        "ice",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "rare",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": true,
+      "is_legendary": true,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 554,
+        "kilograms": 55.4
+      }
+    },
+    {
+      "id": 145,
+      "name": "zapdos",
+      "url": "https://pokeapi.co/api/v2/pokemon/145/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "rare",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": true,
+      "is_legendary": true,
+      "is_mythical": false,
+      "height_category": "medium",
+      "weight": {
+        "hectograms": 526,
+        "kilograms": 52.6
+      }
+    },
+    {
+      "id": 146,
+      "name": "moltres",
+      "url": "https://pokeapi.co/api/v2/pokemon/146/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "yellow",
+      "habitat": "rare",
+      "has_multiple_types": true,
+      "evolves_from": null,
+      "doesnt_evolve": true,
+      "is_legendary": true,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 600,
+        "kilograms": 60
+      }
+    },
+    {
+      "id": 147,
+      "name": "dratini",
+      "url": "https://pokeapi.co/api/v2/pokemon/147/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+      "types": [
+        "dragon"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 33,
+        "kilograms": 3.3
+      }
+    },
+    {
+      "id": 148,
+      "name": "dragonair",
+      "url": "https://pokeapi.co/api/v2/pokemon/148/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+      "types": [
+        "dragon"
+      ],
+      "generation": "generation-i",
+      "color": "blue",
+      "habitat": "waters-edge",
+      "has_multiple_types": false,
+      "evolves_from": "dratini",
+      "doesnt_evolve": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 165,
+        "kilograms": 16.5
+      }
+    },
+    {
+      "id": 149,
+      "name": "dragonite",
+      "url": "https://pokeapi.co/api/v2/pokemon/149/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "generation": "generation-i",
+      "color": "brown",
+      "habitat": "waters-edge",
+      "has_multiple_types": true,
+      "evolves_from": "dragonair",
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 2100,
+        "kilograms": 210
+      }
+    },
+    {
+      "id": 150,
+      "name": "mewtwo",
+      "url": "https://pokeapi.co/api/v2/pokemon/150/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+      "types": [
+        "psychic"
+      ],
+      "generation": "generation-i",
+      "color": "purple",
+      "habitat": "rare",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": true,
+      "is_legendary": true,
+      "is_mythical": false,
+      "height_category": "tall",
+      "weight": {
+        "hectograms": 1220,
+        "kilograms": 122
+      }
+    },
+    {
+      "id": 151,
+      "name": "mew",
+      "url": "https://pokeapi.co/api/v2/pokemon/151/",
+      "picture": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+      "types": [
+        "psychic"
+      ],
+      "generation": "generation-i",
+      "color": "pink",
+      "habitat": "rare",
+      "has_multiple_types": false,
+      "evolves_from": null,
+      "doesnt_evolve": true,
+      "is_legendary": false,
+      "is_mythical": true,
+      "height_category": "short",
+      "weight": {
+        "hectograms": 40,
+        "kilograms": 4
+      }
     }
-]
+  ]
+}
