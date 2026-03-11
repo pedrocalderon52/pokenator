@@ -31,6 +31,14 @@
     {
       "key": "is_tall",
       "question": "O seu Pokémon é alto (mais de 17)?"
+    },
+    {
+      "key": "is_starter",
+      "question": "O seu Pokémon é um Pokémon inicial?"
+    },
+    {
+      "key": "is_ash_pokemon",
+      "question": "O Ash já teve seu Pokémon?"
     }
   ],
 

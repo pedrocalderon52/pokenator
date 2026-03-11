@@ -10,6 +10,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": true,
       "color": "green",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -33,6 +35,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "green",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -56,6 +60,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "green",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -78,6 +84,8 @@
         "fire"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": true,
       "color": "red",
       "habitat": "mountain",
       "has_multiple_types": false,
@@ -100,6 +108,8 @@
         "fire"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "red",
       "habitat": "mountain",
       "has_multiple_types": false,
@@ -123,6 +133,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "red",
       "habitat": "mountain",
       "has_multiple_types": true,
@@ -145,6 +157,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": true,
       "color": "blue",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -167,6 +181,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -189,6 +205,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -211,6 +229,8 @@
         "bug"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "green",
       "habitat": "forest",
       "has_multiple_types": false,
@@ -233,6 +253,8 @@
         "bug"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "green",
       "habitat": "forest",
       "has_multiple_types": false,
@@ -256,6 +278,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "white",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -279,6 +303,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -302,6 +328,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -325,6 +353,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -348,6 +378,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -371,6 +403,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "brown",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -394,6 +428,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "brown",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -416,6 +452,8 @@
         "normal"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -438,6 +476,8 @@
         "normal"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "brown",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -461,6 +501,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "rough-terrain",
       "has_multiple_types": true,
@@ -484,6 +526,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "rough-terrain",
       "has_multiple_types": true,
@@ -506,6 +550,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -528,6 +574,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -550,6 +598,8 @@
         "electric"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "forest",
       "has_multiple_types": false,
@@ -572,6 +622,8 @@
         "electric"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "forest",
       "has_multiple_types": false,
@@ -594,6 +646,8 @@
         "ground"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "rough-terrain",
       "has_multiple_types": false,
@@ -616,6 +670,8 @@
         "ground"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "rough-terrain",
       "has_multiple_types": false,
@@ -638,6 +694,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -660,6 +718,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -683,6 +743,8 @@
         "ground"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -705,6 +767,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -727,6 +791,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -750,6 +816,8 @@
         "ground"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -772,6 +840,8 @@
         "fairy"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "pink",
       "habitat": "mountain",
       "has_multiple_types": false,
@@ -794,6 +864,8 @@
         "fairy"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "pink",
       "habitat": "mountain",
       "has_multiple_types": false,
@@ -816,6 +888,8 @@
         "fire"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -838,6 +912,8 @@
         "fire"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -861,6 +937,8 @@
         "fairy"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "pink",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -884,6 +962,8 @@
         "fairy"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "pink",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -907,6 +987,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "cave",
       "has_multiple_types": true,
@@ -930,6 +1012,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "cave",
       "has_multiple_types": true,
@@ -953,6 +1037,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -976,6 +1062,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -999,6 +1087,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "red",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -1022,6 +1112,8 @@
         "grass"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "red",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -1045,6 +1137,8 @@
         "grass"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "red",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -1068,6 +1162,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -1091,6 +1187,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -1113,6 +1211,8 @@
         "ground"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "cave",
       "has_multiple_types": false,
@@ -1135,6 +1235,8 @@
         "ground"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "cave",
       "has_multiple_types": false,
@@ -1157,6 +1259,8 @@
         "normal"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -1179,6 +1283,8 @@
         "normal"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -1201,6 +1307,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -1223,6 +1331,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -1245,6 +1355,8 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "mountain",
       "has_multiple_types": false,
@@ -1267,6 +1379,8 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "brown",
       "habitat": "mountain",
       "has_multiple_types": false,
@@ -1289,6 +1403,8 @@
         "fire"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -1311,6 +1427,8 @@
         "fire"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -1333,6 +1451,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -1355,6 +1475,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -1378,6 +1500,8 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "waters-edge",
       "has_multiple_types": true,
@@ -1400,6 +1524,8 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -1422,6 +1548,8 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -1444,6 +1572,8 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -1466,6 +1596,8 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "gray",
       "habitat": "mountain",
       "has_multiple_types": false,
@@ -1488,6 +1620,8 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "gray",
       "habitat": "mountain",
       "has_multiple_types": false,
@@ -1510,6 +1644,8 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "gray",
       "habitat": "mountain",
       "has_multiple_types": false,
@@ -1533,6 +1669,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "green",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -1556,6 +1694,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "green",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -1579,6 +1719,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "green",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -1602,6 +1744,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "sea",
       "has_multiple_types": true,
@@ -1625,6 +1769,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "sea",
       "has_multiple_types": true,
@@ -1648,6 +1794,8 @@
         "ground"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "mountain",
       "has_multiple_types": true,
@@ -1671,6 +1819,8 @@
         "ground"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "mountain",
       "has_multiple_types": true,
@@ -1694,6 +1844,8 @@
         "ground"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "mountain",
       "has_multiple_types": true,
@@ -1716,6 +1868,8 @@
         "fire"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -1738,6 +1892,8 @@
         "fire"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -1761,6 +1917,8 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "pink",
       "habitat": "waters-edge",
       "has_multiple_types": true,
@@ -1784,6 +1942,8 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "pink",
       "habitat": "waters-edge",
       "has_multiple_types": true,
@@ -1807,6 +1967,8 @@
         "steel"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "gray",
       "habitat": "rough-terrain",
       "has_multiple_types": true,
@@ -1830,6 +1992,8 @@
         "steel"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "gray",
       "habitat": "rough-terrain",
       "has_multiple_types": true,
@@ -1853,6 +2017,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "brown",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -1876,6 +2042,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -1899,6 +2067,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -1921,6 +2091,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "white",
       "habitat": "sea",
       "has_multiple_types": false,
@@ -1944,6 +2116,8 @@
         "ice"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "white",
       "habitat": "sea",
       "has_multiple_types": true,
@@ -1966,6 +2140,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -1988,6 +2164,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "purple",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -2010,6 +2188,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "sea",
       "has_multiple_types": false,
@@ -2033,6 +2213,8 @@
         "ice"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "sea",
       "has_multiple_types": true,
@@ -2056,6 +2238,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "cave",
       "has_multiple_types": true,
@@ -2079,6 +2263,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "cave",
       "has_multiple_types": true,
@@ -2102,6 +2288,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "purple",
       "habitat": "cave",
       "has_multiple_types": true,
@@ -2125,6 +2313,8 @@
         "ground"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "gray",
       "habitat": "cave",
       "has_multiple_types": true,
@@ -2147,6 +2337,8 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -2169,6 +2361,8 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -2191,6 +2385,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "red",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -2213,6 +2409,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "red",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -2235,6 +2433,8 @@
         "electric"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "red",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -2257,6 +2457,8 @@
         "electric"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "red",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -2280,6 +2482,8 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "pink",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -2303,6 +2507,8 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "forest",
       "has_multiple_types": true,
@@ -2325,6 +2531,8 @@
         "ground"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "mountain",
       "has_multiple_types": false,
@@ -2347,6 +2555,8 @@
         "ground"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "mountain",
       "has_multiple_types": false,
@@ -2369,6 +2579,8 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -2391,6 +2603,8 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -2413,6 +2627,8 @@
         "normal"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "pink",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -2435,6 +2651,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -2457,6 +2675,8 @@
         "poison"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -2480,6 +2700,8 @@
         "rock"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "gray",
       "habitat": "rough-terrain",
       "has_multiple_types": true,
@@ -2503,6 +2725,8 @@
         "rock"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "gray",
       "habitat": "rough-terrain",
       "has_multiple_types": true,
@@ -2525,6 +2749,8 @@
         "normal"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "pink",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -2547,6 +2773,8 @@
         "grass"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -2569,6 +2797,8 @@
         "normal"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -2591,6 +2821,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "sea",
       "has_multiple_types": false,
@@ -2613,6 +2845,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "sea",
       "has_multiple_types": false,
@@ -2635,6 +2869,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "red",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -2657,6 +2893,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "red",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -2679,6 +2917,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "sea",
       "has_multiple_types": false,
@@ -2702,6 +2942,8 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "sea",
       "has_multiple_types": true,
@@ -2725,6 +2967,8 @@
         "fairy"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "pink",
       "habitat": "urban",
       "has_multiple_types": true,
@@ -2748,6 +2992,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "green",
       "habitat": "grassland",
       "has_multiple_types": true,
@@ -2771,6 +3017,8 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "red",
       "habitat": "urban",
       "has_multiple_types": true,
@@ -2793,6 +3041,8 @@
         "electric"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -2815,6 +3065,8 @@
         "fire"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "red",
       "habitat": "mountain",
       "has_multiple_types": false,
@@ -2837,6 +3089,8 @@
         "bug"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "forest",
       "has_multiple_types": false,
@@ -2859,6 +3113,8 @@
         "normal"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "brown",
       "habitat": "grassland",
       "has_multiple_types": false,
@@ -2881,6 +3137,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "red",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -2904,6 +3162,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "waters-edge",
       "has_multiple_types": true,
@@ -2927,6 +3187,8 @@
         "ice"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "blue",
       "habitat": "sea",
       "has_multiple_types": true,
@@ -2949,6 +3211,8 @@
         "normal"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -2971,6 +3235,8 @@
         "normal"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -2993,6 +3259,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -3015,6 +3283,8 @@
         "electric"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -3037,6 +3307,8 @@
         "fire"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "red",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -3059,6 +3331,8 @@
         "normal"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "pink",
       "habitat": "urban",
       "has_multiple_types": false,
@@ -3082,6 +3356,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "sea",
       "has_multiple_types": true,
@@ -3105,6 +3381,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "sea",
       "has_multiple_types": true,
@@ -3128,6 +3406,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "sea",
       "has_multiple_types": true,
@@ -3151,6 +3431,8 @@
         "water"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "brown",
       "habitat": "sea",
       "has_multiple_types": true,
@@ -3174,6 +3456,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "mountain",
       "has_multiple_types": true,
@@ -3196,6 +3480,8 @@
         "normal"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "black",
       "habitat": "mountain",
       "has_multiple_types": false,
@@ -3219,6 +3505,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "rare",
       "has_multiple_types": true,
@@ -3242,6 +3530,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "rare",
       "has_multiple_types": true,
@@ -3265,6 +3555,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "yellow",
       "habitat": "rare",
       "has_multiple_types": true,
@@ -3287,6 +3579,8 @@
         "dragon"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -3309,6 +3603,8 @@
         "dragon"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "blue",
       "habitat": "waters-edge",
       "has_multiple_types": false,
@@ -3332,6 +3628,8 @@
         "flying"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": true,
+      "is_starter": false,
       "color": "brown",
       "habitat": "waters-edge",
       "has_multiple_types": true,
@@ -3354,6 +3652,8 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "purple",
       "habitat": "rare",
       "has_multiple_types": false,
@@ -3376,6 +3676,8 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "is_ash_pokemon": false,
+      "is_starter": false,
       "color": "pink",
       "habitat": "rare",
       "has_multiple_types": false,
