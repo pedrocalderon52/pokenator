@@ -92,10 +92,17 @@ while len(engine.possible_pokemons) > 1:
     if not next_attr:
         break
 
-    answer = input(questions_map[next_attr] + " (s/n): ").strip().lower()
-    val = answer == "s"
-    engine.declare(Answer(attribute=next_attr, value=val))
-    engine.run()
+    while True:
+        answer = input(questions_map[next_attr] + " (s/n/nsei): ").strip().lower()
+        if answer in {"s", "n", "nsei"}:
+            break
+        print("Resposta invalida. Use 's', 'n' ou 'nsei'.")
+
+    if answer != "nsei":
+        val = answer == "s"
+        engine.declare(Answer(attribute=next_attr, value=val))
+        engine.run()
+
     asked_attrs.add(next_attr)
 
 # Resultado final
