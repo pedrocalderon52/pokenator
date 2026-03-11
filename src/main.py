@@ -121,9 +121,20 @@ while len(engine.possible_pokemons) > 1:
     asked_attrs.add(next_attr)
 
 # Resultado final
-if len(engine.possible_pokemons) == 1: # alterar aqui para colocar a probabilidade
+total_restante = len(engine.possible_pokemons)
+
+if total_restante == 1: # alterar aqui para colocar a probabilidade
     print("O Pokemon é:", list(engine.possible_pokemons)[0])
-elif engine.possible_pokemons:
-    print("Pokemons possiveis:", engine.possible_pokemons)
+elif total_restante > 1:
+    # Calcula a probabilidade matemática de acerto no chute
+    probabilidade = (1 / total_restante) * 100
+    
+    # Sorteia um dos sobreviventes para ser o palpite do Akinator
+    chute = random.choice(list(engine.possible_pokemons))
+    
+    print(f"\nHum... As suas respostas servem para {total_restante} Pokémons diferentes.")
+    print(f"Isso me dá {probabilidade:.1f}% de chance de acerto.")
+    print(f"Os possíveis eram: {', '.join(engine.possible_pokemons)}")
+    print(f"\nMas o meu palpite final é... {chute.capitalize()}!")
 else:
     print("Nenhum Pokemon corresponde as respostas.")

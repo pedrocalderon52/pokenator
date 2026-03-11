@@ -5,7 +5,7 @@ import os
 def choose_best_question(possible, all_attrs, attributes, asked_attrs):
 
     best_attr = None
-    best_balance = -1
+    best_balance = 0
     best_counts = None # Shows how many Pokémon would answer True/False for the best question
 
     for attr in attributes:
