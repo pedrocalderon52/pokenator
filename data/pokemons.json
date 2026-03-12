@@ -3396,7 +3396,7 @@
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
-      "habitat": "urban",
+      "habitat": "waters-edge",
       "has_multiple_types": false,
       "evolves_from": "eevee",
       "doesnt_evolve": true,
