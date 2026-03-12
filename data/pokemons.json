@@ -10,6 +10,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": true,
       "color": "green",
@@ -35,6 +36,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "green",
@@ -60,6 +62,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "green",
@@ -84,6 +87,7 @@
         "fire"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": true,
       "color": "red",
@@ -108,6 +112,7 @@
         "fire"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "red",
@@ -133,6 +138,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "red",
@@ -157,6 +163,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": true,
       "color": "blue",
@@ -181,6 +188,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -205,6 +213,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -229,6 +238,7 @@
         "bug"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "green",
@@ -253,6 +263,7 @@
         "bug"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "green",
@@ -278,6 +289,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "white",
@@ -303,6 +315,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -328,6 +341,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -353,6 +367,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -378,6 +393,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -403,6 +419,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "brown",
@@ -428,6 +445,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "brown",
@@ -452,6 +470,7 @@
         "normal"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -476,6 +495,7 @@
         "normal"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "brown",
@@ -501,6 +521,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -526,6 +547,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -550,6 +572,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -574,6 +597,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -598,6 +622,7 @@
         "electric"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "yellow",
@@ -622,6 +647,7 @@
         "electric"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -646,6 +672,7 @@
         "ground"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -670,6 +697,7 @@
         "ground"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -694,6 +722,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -718,6 +747,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -743,6 +773,7 @@
         "ground"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -767,6 +798,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -791,6 +823,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -816,6 +849,7 @@
         "ground"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -840,6 +874,7 @@
         "fairy"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "pink",
@@ -864,6 +899,7 @@
         "fairy"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "pink",
@@ -888,6 +924,7 @@
         "fire"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -912,6 +949,7 @@
         "fire"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -937,6 +975,7 @@
         "fairy"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "pink",
@@ -962,6 +1001,7 @@
         "fairy"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "pink",
@@ -987,6 +1027,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -1012,6 +1053,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -1037,6 +1079,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -1062,6 +1105,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -1087,6 +1131,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "red",
@@ -1112,6 +1157,7 @@
         "grass"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "red",
@@ -1137,6 +1183,7 @@
         "grass"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "red",
@@ -1162,6 +1209,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -1187,6 +1235,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -1211,6 +1260,7 @@
         "ground"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -1235,6 +1285,7 @@
         "ground"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -1259,6 +1310,7 @@
         "normal"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -1283,6 +1335,7 @@
         "normal"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -1307,6 +1360,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -1331,6 +1385,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -1355,6 +1410,7 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -1379,6 +1435,7 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "brown",
@@ -1403,6 +1460,7 @@
         "fire"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -1427,6 +1485,7 @@
         "fire"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -1451,6 +1510,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -1475,6 +1535,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -1500,6 +1561,7 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -1524,6 +1586,7 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -1548,6 +1611,7 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -1572,6 +1636,7 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -1596,6 +1661,7 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "gray",
@@ -1620,6 +1686,7 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "gray",
@@ -1644,6 +1711,7 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "gray",
@@ -1669,6 +1737,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "green",
@@ -1694,6 +1763,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "green",
@@ -1719,6 +1789,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "green",
@@ -1744,6 +1815,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -1769,6 +1841,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -1794,6 +1867,7 @@
         "ground"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -1819,6 +1893,7 @@
         "ground"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -1844,6 +1919,7 @@
         "ground"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -1868,6 +1944,7 @@
         "fire"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -1892,6 +1969,7 @@
         "fire"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -1917,6 +1995,7 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "pink",
@@ -1942,6 +2021,7 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "pink",
@@ -1967,6 +2047,7 @@
         "steel"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "gray",
@@ -1992,6 +2073,7 @@
         "steel"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "gray",
@@ -2017,6 +2099,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "brown",
@@ -2042,6 +2125,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -2067,6 +2151,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -2091,6 +2176,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "white",
@@ -2116,6 +2202,7 @@
         "ice"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "white",
@@ -2140,6 +2227,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -2164,6 +2252,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "purple",
@@ -2188,6 +2277,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -2213,6 +2303,7 @@
         "ice"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -2238,6 +2329,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -2263,6 +2355,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -2288,6 +2381,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "purple",
@@ -2313,6 +2407,7 @@
         "ground"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "gray",
@@ -2337,6 +2432,7 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -2361,6 +2457,7 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -2385,6 +2482,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "red",
@@ -2409,6 +2507,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "red",
@@ -2433,6 +2532,7 @@
         "electric"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "red",
@@ -2457,6 +2557,7 @@
         "electric"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "red",
@@ -2482,6 +2583,7 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "pink",
@@ -2507,6 +2609,7 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -2531,6 +2634,7 @@
         "ground"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -2555,6 +2659,7 @@
         "ground"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -2579,6 +2684,7 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -2603,6 +2709,7 @@
         "fighting"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -2627,6 +2734,7 @@
         "normal"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "pink",
@@ -2651,6 +2759,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -2675,6 +2784,7 @@
         "poison"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -2700,6 +2810,7 @@
         "rock"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "gray",
@@ -2725,6 +2836,7 @@
         "rock"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "gray",
@@ -2749,6 +2861,7 @@
         "normal"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "pink",
@@ -2773,6 +2886,7 @@
         "grass"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -2797,6 +2911,7 @@
         "normal"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -2821,6 +2936,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -2845,6 +2961,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -2869,6 +2986,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "red",
@@ -2893,6 +3011,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "red",
@@ -2917,6 +3036,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -2942,6 +3062,7 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -2967,6 +3088,7 @@
         "fairy"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "pink",
@@ -2992,6 +3114,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "green",
@@ -3017,6 +3140,7 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "red",
@@ -3041,6 +3165,7 @@
         "electric"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -3065,6 +3190,7 @@
         "fire"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "red",
@@ -3089,6 +3215,7 @@
         "bug"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -3113,6 +3240,7 @@
         "normal"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "brown",
@@ -3137,6 +3265,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "red",
@@ -3162,6 +3291,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -3187,6 +3317,7 @@
         "ice"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "blue",
@@ -3211,6 +3342,7 @@
         "normal"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -3235,6 +3367,7 @@
         "normal"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -3259,6 +3392,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -3283,6 +3417,7 @@
         "electric"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -3307,6 +3442,7 @@
         "fire"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "red",
@@ -3331,6 +3467,7 @@
         "normal"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "pink",
@@ -3356,6 +3493,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -3381,6 +3519,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -3406,6 +3545,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -3431,6 +3571,7 @@
         "water"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "brown",
@@ -3456,6 +3597,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -3480,6 +3622,7 @@
         "normal"
       ],
       "generation": "generation-i",
+      "flies": false,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "black",
@@ -3505,6 +3648,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -3530,6 +3674,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -3555,6 +3700,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "yellow",
@@ -3579,6 +3725,7 @@
         "dragon"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -3603,6 +3750,7 @@
         "dragon"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "blue",
@@ -3628,6 +3776,7 @@
         "flying"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": true,
       "is_starter": false,
       "color": "brown",
@@ -3652,6 +3801,7 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "purple",
@@ -3676,6 +3826,7 @@
         "psychic"
       ],
       "generation": "generation-i",
+      "flies": true,
       "is_ash_pokemon": false,
       "is_starter": false,
       "color": "pink",
