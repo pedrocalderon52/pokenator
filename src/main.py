@@ -15,6 +15,7 @@ from loader import load_pokemons, load_questions
 from utils import choose_best_question
 from explanation_module import init_log
 from engine import Answer, PokeAkinator
+from collections import Counter
 
 init_log()
 
@@ -144,48 +145,76 @@ class Game:
     # Próxima pergunta
     # -----------------------------
     def next_question(self):
-
         if len(self.engine.possible_pokemons) <= 1:
             return None
 
-        remaining_attrs = [
-            attr for attr in self.attributes if attr not in self.asked_attrs
-        ]
 
+        remaining_attrs = [a for a in self.attributes if a not in self.asked_attrs]
         if not remaining_attrs:
             return None
 
-        if len(self.asked_attrs) < self.RANDOM_QUESTIONS_NUMBER:
+        import time
+        random.seed(time.time())
+        self.current_attr = None
 
-            self.current_attr = random.choice(remaining_attrs)
 
-        else:
+        categories = {}
+        for attr in remaining_attrs:
+            prefix = attr.split('_')[0] if '_' in attr else 'general'
+            if prefix not in categories:
+                categories[prefix] = []
+            categories[prefix].append(attr)
 
+        category_list = list(categories.keys())
+        random.shuffle(category_list)
+
+        for cat in category_list:
+
+            random.shuffle(categories[cat])
+            
+            for attr in categories[cat]:
+                from collections import Counter
+                counts = Counter(self.all_attrs[p][attr] for p in self.engine.possible_pokemons)
+                balance = min(counts.get(True, 0), counts.get(False, 0))
+                
+
+                if balance > 0:
+                    self.current_attr = attr
+                    break
+            if self.current_attr:
+                break
+
+        if self.current_attr is None:
             self.current_attr = choose_best_question(
                 self.engine.possible_pokemons,
                 self.all_attrs,
-                self.attributes,
-                self.asked_attrs,
+                remaining_attrs, 
+                self.asked_attrs
             )
 
-        return self.questions_map[self.current_attr]
+        if not self.current_attr:
+            return None
 
+        return self.questions_map[self.current_attr]
     # -----------------------------
     # Recebe resposta
     # -----------------------------
     def answer(self, answer):
 
+        if self.current_attr is None:
+            return
+
         if answer != "nsei":
+       
+            val = (answer == "yes")
 
-            val = answer == "yes"
-
-            self.engine.declare(
-                Answer(attribute=self.current_attr, value=val)
-            )
-
+   
+            self.engine.declare(Answer(attribute=self.current_attr, value=val))
             self.engine.run()
 
+  
         self.asked_attrs.add(self.current_attr)
+        self.current_attr = None
 
     # -----------------------------
     # Resultado final

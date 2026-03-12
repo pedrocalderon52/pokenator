@@ -12,14 +12,15 @@ game = Game()
 
 @app.route("/")
 def index():
+ 
+    question = game.next_question()
 
     # se só restar 1 pokemon, mostra resultado
-    if len(game.engine.possible_pokemons) <= 1:
-        result = game.guess()
+    if question is None:
+        result = game.guess() # Aqui ele gera o palpite final ou a lista
         return render_template("index.html", question=None, result=result)
 
-    # caso contrário faz pergunta
-    question = game.next_question()
+    
 
     return render_template("index.html", question=question, result=None)
 
