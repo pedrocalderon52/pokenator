@@ -13,11 +13,8 @@ import random
 
 from loader import load_pokemons, load_questions
 from utils import choose_best_question
-from explanation_module import init_log
+from explanation_module import init_log, log_question_choice
 from engine import Answer, PokeAkinator
-from collections import Counter
-
-init_log()
 
 
 class Game:
@@ -32,6 +29,7 @@ class Game:
     )
 
     def __init__(self):
+        init_log()
 
         # -----------------------------
         # Carrega dados
@@ -148,47 +146,27 @@ class Game:
         if len(self.engine.possible_pokemons) <= 1:
             return None
 
-
         remaining_attrs = [a for a in self.attributes if a not in self.asked_attrs]
         if not remaining_attrs:
             return None
 
-        import time
-        random.seed(time.time())
-        self.current_attr = None
-
-
-        categories = {}
-        for attr in remaining_attrs:
-            prefix = attr.split('_')[0] if '_' in attr else 'general'
-            if prefix not in categories:
-                categories[prefix] = []
-            categories[prefix].append(attr)
-
-        category_list = list(categories.keys())
-        random.shuffle(category_list)
-
-        for cat in category_list:
-
-            random.shuffle(categories[cat])
-            
-            for attr in categories[cat]:
-                from collections import Counter
-                counts = Counter(self.all_attrs[p][attr] for p in self.engine.possible_pokemons)
-                balance = min(counts.get(True, 0), counts.get(False, 0))
-                
-
-                if balance > 0:
-                    self.current_attr = attr
-                    break
-            if self.current_attr:
-                break
-
-        if self.current_attr is None:
+        if len(self.asked_attrs) < self.RANDOM_QUESTIONS_NUMBER:
+            self.current_attr = random.choice(remaining_attrs)
+            true_count = sum(
+                1 for p in self.engine.possible_pokemons if self.all_attrs[p][self.current_attr]
+            )
+            false_count = len(self.engine.possible_pokemons) - true_count
+            log_question_choice(
+                self.current_attr,
+                true_count,
+                false_count,
+                reason="essa pergunta foi escolhida aleatoriamente para variar o inicio da partida.",
+            )
+        else:
             self.current_attr = choose_best_question(
                 self.engine.possible_pokemons,
                 self.all_attrs,
-                remaining_attrs, 
+                remaining_attrs,
                 self.asked_attrs
             )
 

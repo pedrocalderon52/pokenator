@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Explicação do Resultado</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="explanation-page">
+
+    <div class="logo-container">
+        <img src="{{ url_for('static', filename='pokenator_logo.png') }}" alt="Pokenator Logo" class="logo">
+    </div>
+
+    <div class="container explanation-container">
+        <div class="result">
+            <h2>Explicação do resultado</h2>
+            <p>Registro do processo de decisão desta partida:</p>
+            <pre class="log-viewer">{{ log_content }}</pre>
+        </div>
+
+        <div class="result-actions">
+            <a href="/" class="secondary-action">Voltar ao jogo</a>
+            <a href="/restart" class="restart">Nova partida</a>
+        </div>
+    </div>
+
+</body>
+</html>

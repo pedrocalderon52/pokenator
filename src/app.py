@@ -1,5 +1,6 @@
 from flask import Flask, render_template, redirect, url_for
 from main import Game
+from explanation_module import read_log
 
 app = Flask(
     __name__,
@@ -40,6 +41,11 @@ def restart():
     game = Game()
 
     return redirect(url_for("index"))
+
+
+@app.route("/explanation")
+def explanation():
+    return render_template("explanation.html", log_content=read_log())
 
 
 if __name__ == "__main__":
