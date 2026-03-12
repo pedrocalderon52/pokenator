@@ -1,7 +1,19 @@
+"""
+Isaac Lovisi Silva Gomide RA: 22402080
+Lucas Alberto Borges RA: 22405351
+Pedro Calderón Nunes RA: 22408377
+Lucas Oliveira de Carvalho Mendes RA: 22406802
+Pedro Henrique de Sá Quartin de Matos RA: 22408544 
+Artur Machado Máximo RA: 
+
+
+"""
+
 import random
 
 from loader import load_pokemons, load_questions
-from utils import choose_best_question, init_log
+from utils import choose_best_question
+from explanation_module import init_log
 from engine import Answer, PokeAkinator
 
 init_log()
