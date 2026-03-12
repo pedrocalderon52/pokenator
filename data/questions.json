@@ -43,6 +43,10 @@
     {
       "key": "flies",
       "question": "O seu Pokémon voa/levita/flutua?"
+    },
+    {
+      "key": "will_evolve",
+      "question": "O seu Pokémon pode evoluir?"
     }
   ],
 

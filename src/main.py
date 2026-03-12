@@ -4,7 +4,7 @@ Lucas Alberto Borges RA: 22405351
 Pedro Calderón Nunes RA: 22408377
 Lucas Oliveira de Carvalho Mendes RA: 22406802
 Pedro Henrique de Sá Quartin de Matos RA: 22408544 
-Artur Machado Máximo RA: 
+Artur Machado Máximo RA: 22403701
 
 
 """
@@ -116,6 +116,9 @@ class Game:
 
                 elif key == "is_medium":
                     attr_map[key] = p.get("height_category") == "medium"
+
+                elif key == "will_evolve":
+                    attr_map[key] = p.get("doesnt_evolve") is False
 
                 elif key == "is_tall":
                     attr_map[key] = p.get("height_category") == "tall"
