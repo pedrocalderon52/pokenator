@@ -67,7 +67,7 @@
   "colors": [
     {"value": "blue", "question": "O seu Pokémon é azul?"},
     {"value": "green", "question": "O seu Pokémon é verde?"},
-    {"value": "red", "question": "O seu Pokémon é vermelho?"},
+    {"value": "red", "question": "O seu Pokémon é vermelho / laranja?"},
     {"value": "yellow", "question": "O seu Pokémon é amarelo?"},
     {"value": "pink", "question": "O seu Pokémon é rosa?"},
     {"value": "gray", "question": "O seu Pokémon é cinza?"},
