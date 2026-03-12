@@ -1,7 +1,8 @@
 import random
 
 from loader import load_pokemons, load_questions
-from utils import choose_best_question, init_log
+from utils import choose_best_question
+from explanation_module import init_log
 from engine import Answer, PokeAkinator
 
 init_log()
