@@ -3,33 +3,38 @@
 }
 
 body {
-
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #0f0f0f, #1c1c1c, #121212);
-    color: white;
-
-    display: flex;
-    flex-direction: column;      
-    justify-content: center;     
-    align-items: center;         
-
-    height: 100vh;
     margin: 0;
+    padding-top: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* IMAGEM DE FUNDO */
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+
+    color: white;
 }
 
-/* TÍTULO */
-
-body > h1 {
+/* LOGO FORA DO CARD */
+.logo-container {
     text-align: center;
-    margin-bottom: 25px;
-    font-size: 36px;
-    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 400px;
+    max-width: 90%;
+    height: auto;
+    display: inline-block;
 }
 
 /* CARD PRINCIPAL */
-
 .container {
-    background: #1b1b1b;
+    background: rgba(37, 35, 35, 0.85); /* fundo semi-transparente */
     padding: 40px;
     border-radius: 16px;
     text-align: center;
@@ -38,9 +43,11 @@ body > h1 {
     max-width: 90%;
 
     box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+
+    margin-top: 20px;
 }
 
-
+/* Títulos */
 h1 {
     margin-bottom: 25px;
     font-size: 32px;
@@ -52,48 +59,50 @@ h2 {
 }
 
 /* PERGUNTA */
-
 .question h2 {
     margin-bottom: 30px;
 }
 
-/* BOTÕES */
-
+/* BOTÕES HORIZONTAIS (três forms separados) */
 .buttons {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     gap: 15px;
+    width: 100%;
+    flex-wrap: nowrap;
 }
 
-button {
+.buttons form {
+    flex: 0 0 30%;
+    min-width: 80px;
+}
+
+.buttons button {
+    width: 100%;
     padding: 14px;
     border: none;
     border-radius: 10px;
-
     font-size: 16px;
     font-weight: 600;
-
     cursor: pointer;
     transition: all 0.25s ease;
 }
 
 /* CORES */
-
 .yes {
     background: linear-gradient(135deg, #27ae60, #2ecc71);
+}
+
+.unknown {
+    background: linear-gradient(135deg, #d4ac0d, #f1c40f);
+    color: #222;  
 }
 
 .no {
     background: linear-gradient(135deg, #c0392b, #e74c3c);
 }
 
-.unknown {
-    background: linear-gradient(135deg, #d4ac0d, #f1c40f);
-    color: #222;
-}
-
 /* HOVER */
-
 button:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 18px rgba(0,0,0,0.5);
@@ -104,7 +113,6 @@ button:active {
 }
 
 /* RESULTADO */
-
 .result {
     animation: fadeIn 0.5s ease;
 }
@@ -121,7 +129,6 @@ button:active {
 }
 
 /* LISTA */
-
 .result ul {
     list-style: none;
     padding: 0;
@@ -134,7 +141,6 @@ button:active {
 }
 
 /* BOTÃO RESTART */
-
 .restart {
     display: inline-block;
     margin-top: 25px;
@@ -156,7 +162,6 @@ button:active {
 }
 
 /* ANIMAÇÃO */
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -165,5 +170,25 @@ button:active {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* RESPONSIVO */
+@media (max-width: 500px) {
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .buttons form {
+        flex: 1;
+    }
+
+    .buttons button {
+        width: 100%;
+    }
+
+    .container {
+        padding: 20px;
     }
 }

@@ -2,69 +2,74 @@
 <html>
 <head>
     <title>Pokenator</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
-    <h1>Pokenator</h1>
+    <!-- Logo fora do container -->
+    <div class="logo-container">
+        <img src="{{ url_for('static', filename='pokenator_logo.png') }}" alt="Pokenator Logo" class="logo">
+    </div>
 
-<div class="container">
+    <div class="container">
 
-    {% if result %}
+        {% if result %}
 
-        {% if result.type == "single" %}
-            <div class="result">
-                <h2>Eu acho que é:</h2>
-                <h1>{{ result.pokemon }}</h1>
-                <img src={{result.image}}>
-            </div>
+            {% if result.type == "single" %}
+                <div class="result">
+                    <h2>Eu acho que é:</h2>
+                    <h1>{{ result.pokemon }}</h1>
+                    <img src="{{ result.image }}">
+                </div>
 
-        {% elif result.type == "multiple" %}
-            <div class="result">
-                <h2>Hmm...</h2>
-                <p>Suas respostas correspondem a <b>{{ result.remaining }}</b> Pokémons.</p>
-                <p>Minha chance de acerto é <b>{{ result.probability|round(1) }}%</b></p>
+            {% elif result.type == "multiple" %}
+                <div class="result">
+                    <h2>Hmm...</h2>
+                    <p>Suas respostas correspondem a <b>{{ result.remaining }}</b> Pokémons.</p>
+                    <p>Minha chance de acerto é <b>{{ result.probability|round(1) }}%</b></p>
 
-                <h2>Meu palpite é:</h2>
-                <h1>{{ result.guess }}</h1>
+                    <h2>Meu palpite é:</h2>
+                    <h1>{{ result.guess }}</h1>
 
-                <p>Pokémons possíveis:</p>
-                <ul>
-                {% for p in result.possibles %}
-                    <li>{{ p }}</li>
-                {% endfor %}
-                </ul>
-            </div>
+                    <p>Pokémons possíveis:</p>
+                    <ul>
+                    {% for p in result.possibles %}
+                        <li>{{ p }}</li>
+                    {% endfor %}
+                    </ul>
+                </div>
+
+            {% else %}
+                <div class="result">
+                    <h2>Nenhum Pokémon corresponde às respostas.</h2>
+                </div>
+            {% endif %}
+
+            <a href="/restart" class="restart">Jogar novamente</a>
 
         {% else %}
-            <div class="result">
-                <h2>Nenhum Pokémon corresponde às respostas.</h2>
+
+            <div class="question">
+                <h2>{{ question }}</h2>
+
+                <!-- Três forms separados alinhados horizontalmente -->
+                <div class="buttons">
+                    <form method="post" action="/answer/yes">
+                        <button type="submit" class="yes">Sim</button>
+                    </form>
+                    <form method="post" action="/answer/nsei">
+                        <button type="submit" class="unknown">Não sei</button>
+                    </form>
+                    <form method="post" action="/answer/no">
+                        <button type="submit" class="no">Não</button>
+                    </form>
+                </div>
             </div>
+
         {% endif %}
 
-        <a href="/restart" class="restart">Jogar novamente</a>
-
-    {% else %}
-
-        <div class="question">
-            <h2>{{ question }}</h2>
-
-            <div class="buttons">
-                <form method="post" action="/answer/yes">
-                    <button type="submit" class="yes">Sim</button>
-                </form>
-                <form method="post" action="/answer/no">
-                    <button type="submit" class="no">Não</button>
-                </form>
-                <form method="post" action="/answer/nsei">
-                    <button type="submit" class="unknown">Não sei</button>
-                </form>
-            </div>
-        </div>
-
-    {% endif %}
-
-</div>
+    </div>
 
 </body>
 </html>
