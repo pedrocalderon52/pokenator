@@ -25,6 +25,9 @@ class Game:
         # -----------------------------
         self.pokemon_data = load_pokemons()
         self.questions_data = load_questions()
+        self.pokemon_by_name = {
+            p["name"]: p for p in self.pokemon_data
+        }
 
         # -----------------------------
         # Estruturas
@@ -180,9 +183,13 @@ class Game:
         total_restante = len(self.engine.possible_pokemons)
 
         if total_restante == 1:
+
+            pokemon = list(self.engine.possible_pokemons)[0]
+
             return {
                 "type": "single",
-                "pokemon": list(self.engine.possible_pokemons)[0]
+                "pokemon": pokemon,
+                "image": self.pokemon_by_name[pokemon]["picture"]
             }
 
         elif total_restante > 1:
@@ -196,6 +203,7 @@ class Game:
                 "remaining": total_restante,
                 "probability": probabilidade,
                 "guess": chute,
+                "image": self.pokemon_by_name[chute]["picture"],
                 "possibles": list(self.engine.possible_pokemons)
             }
 
