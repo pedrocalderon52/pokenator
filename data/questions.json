@@ -22,15 +22,15 @@
     },
     {
       "key": "is_short",
-      "question": "O seu Pokémon é pequeno (menos de 7)?"
+      "question": "O seu Pokémon é pequeno? (menos de 70cm)"
     },
     {
       "key": "is_medium",
-      "question": "O seu Pokémon é médio (entre 7 e 17)?"
+      "question": "O seu Pokémon é médio? (entre 70cm e 170cm)"
     },
     {
       "key": "is_tall",
-      "question": "O seu Pokémon é alto (mais de 17)?"
+      "question": "O seu Pokémon é alto? (mais de 170 cm)"
     },
     {
       "key": "is_starter",
@@ -39,6 +39,10 @@
     {
       "key": "is_ash_pokemon",
       "question": "O Ash já teve seu Pokémon?"
+    },
+    {
+      "key": "flies",
+      "question": "O seu Pokémon voa/levita/flutua?"
     }
   ],
 
